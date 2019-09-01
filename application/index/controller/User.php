@@ -1,9 +1,9 @@
 <?php
 namespace app\index\controller;
 use app\index\controller\Base;
-class Index extends Base
+class User extends Base
 {
-    public function index()
+    public function login()
     {
         return $this -> view -> fetch();
     }
